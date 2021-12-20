@@ -23,7 +23,7 @@ Change the values in the \###Setup\### portion of the script to match your requi
 
 ## Extended Functionality
 
-This program is capable of reflecting leaf bank rotation. The user can change TransY and RotX in the CreateTopasMLCFile() function (custom_mlc_creator_functions.py) to supply and supply a list describing the rotation of each leaf as well as the vertical position. Also, this program assumes the .stl file is set up in so that the field defining face is already facing the Z-axis. In case it is not, the values in RotX should be changed to 0 instead of 180 (degrees). 
+This program is capable of reflecting leaf bank rotation. The user can change TransY and RotX in the CreateTopasMLCFile() function (custom_mlc_creator_functions.py) to supply a list describing the rotation of each leaf as well as the vertical position. Also, this program assumes the .stl file is set up in so that the field defining face is already facing the Z-axis. In case it is not, the values in RotX should be changed to 0 instead of 180 (degrees). 
 
 ## Dependencies
 
