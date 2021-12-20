@@ -6,7 +6,7 @@ Modern MLCs can have very compley leaf designs. Since not all geometries can be 
 
 ## Usage
 
-Before starting the script, a couple of options need to be set to fit the program to your .stl file.
+Before starting the script, a couple of options need to be set to match the program to your .stl file.
 
 Change the values in the \###Setup\### portion of the script to match your requirements:
 
@@ -20,6 +20,10 @@ Change the values in the \###Setup\### portion of the script to match your requi
 ## Preview
  
 ![Preview](https://user-images.githubusercontent.com/87897942/146832691-24346005-0484-402b-82e8-90ebb472417a.png)
+
+## Extended Functionality
+
+This program is capable of reflecting leaf bank rotation. The user can change TransY and RotX in the CreateTopasMLCFile() function (custom_mlc_creator_functions.py) to supply and supply a list describing the rotation of each leaf as well as the vertical position. Also, this program assumes the .stl file is set up in so that the field defining face is already facing the Z-axis. In case it is not, the values in RotX should be changed to 0 instead of 180 (degrees). 
 
 ## Dependencies
 
