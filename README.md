@@ -27,5 +27,5 @@ This program is capable of reflecting leaf bank rotation. The user can change Tr
 
 ## Dependencies
 
-Requires python3, numpy, and tkinter.
+Requires python3, numpy, and tkinter.  
 The tkSliderWidget.py is adapted from https://github.com/MenxLi/tkSliderWidget.
