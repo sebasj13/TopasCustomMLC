@@ -10,6 +10,8 @@ Before starting the script, a couple of options need to be set to match the prog
 
 Change the values in the \###Setup\### portion of the script to match your requirements:
 
+![code](https://user-images.githubusercontent.com/87897942/147073583-ffb5eea9-8a34-4cb2-be86-e84b15a97572.png)
+
 - leaf_stl_path : Let TOPAS know where to find the .stl file describing the leaf
 - number_of_leaf_pairs : Number of leaf pairs in the MLC
 - MLC-TransZ : Distance from the Source to the top of the MLC, in cm
